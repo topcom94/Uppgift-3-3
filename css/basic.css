@@ -1,1 +1,128 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
+#topbar{
+    text-align:right;
+    color:#e8e5d1;
+    height:225px;
+    font-style:italic;
+   
+    
+    background-color:#4f463c;
+    background-image:url(pics/coffey.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    }
+
+ 
+#content{
+   height:auto;
+   float:auto;
+   color:#786f66;
+   text-align:left;
+   background-color:#e8e5d1;
+}
+    
+#container{
+    
+        position:relative;
+        left:400px;
+        right:500px;
+        width:600px;
+        border-style:solid;
+        border-color:gray;
+        border-width:1px;
+        background-color:#e8e5d1;
+        margin:0; 
+        
+}
+
+
+  
+
+#menu .active a{
+    color:#A9A9A9;
+    background-color:#e8e5d1;
+    
+    
+}
+#menu{ height:50px;
+       background-color:#e8e5d1;
+}
+   
+
+#menu ul 
+    { 
+	    margin:0; 
+	    padding:5px; 
+	    list-style-type:none; 
+	    text-align:center; 
+	    background-color:#e8e5d1; 
+	  	} 
+ 
+#menu ul li 
+    {  
+        margin-right:2px;
+        float:left;
+	} 
+ 
+#menu ul li a 
+    { 
+	    text-decoration:none; 
+	    padding:10px 20px;
+	    color:#e8e5d1; 
+	    background-color:#786f66; 
+	} 
+ 
+#menu ul li a:hover 
+    { 
+	    color:#e8d8ac; 
+	    background-color:#9c9084 
+	}
+
+
+img {float:left; margin-right:5px;}
+
+#maincontent { 
+     float:left;
+    border-right-style:dashed;
+    background-color:#D0D0D0;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:367px;
+    font-size:94%;
+    height:321px;
+}
+#maincontent h1{
+    margin-top:0;
+    
+}
+#subcontent {
+    float:right;
+    background-color:#D0D0D0;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:200px;
+    font-size:60%;
+    height:311px;
+    line-height:200%;
+    
+}
+#subcontent ul {
+    padding-left:0;
+    
+}
+    
+#subcontent h1 {
+    margin-top:0;
+    font-size:16px;
+}
+    
+    
+
+#bottomcontent{
+    font-size:12px;
+    font-style:italic;
+}
+a[href="#maincontent"] { opacity:0; }
+
+    
